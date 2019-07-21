@@ -1,0 +1,234 @@
+body,figure{
+    margin: 0;
+
+}
+
+html{
+    font-size: 100%;
+    line-height: 2.0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(5, 92, 18);
+    background-color: rgb(199, 214, 223)
+}
+
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #17303d;
+}
+
+img{
+    max-width: 500px;
+    height: auto;
+}
+
+.site-wrapper{
+    max-width: 1300px;
+    margin: 0 auto 0 auto;
+}
+
+.site-header{
+    background-color:  rgb(29, 108, 156) ;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    color: #fff;
+}
+
+.nav-header{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.nav-header a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1.7em;
+}
+
+.nav-header a:hover{
+background-color: lightblue
+}
+
+.nav-header a.active{
+    background-color:  lightblue
+}
+
+.fero{
+    background-color: #e6ecee;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fero-portfolio{
+    background-color: #e6ecee;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-details{
+    width: 60%;
+}
+
+.profile-img{
+    margin-left: 0.5rem;
+    margin-right: 1.7rem;
+    border-radius: 90%;
+}
+    
+.profile-title{
+    font-size: 3.5rem;
+}
+
+.fero p{
+    font-size: 1.3rem;
+    margin-right: 0.5rem
+}
+
+.btn-hire{
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid #071a25;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(36, 107, 151);
+}
+
+.btn-hire:focus{
+    background-color: lightblue;
+}
+
+.btn-hire:hover{
+    background-color: lightblue;
+}
+
+.content{
+    display: flex;
+    background-color: rgb(233, 232, 232) ;
+    padding: 3.0rem
+}
+
+.primary-content{
+    flex-basis: 55%;
+    margin-right: 3.4rem;
+
+}
+
+.primary-content a{
+    color: #17303d;
+}
+
+.secondary-content{
+    flex-basis: 45%;
+   
+}
+
+.nav-content a{
+    color: #17303d;
+    display: block;
+    text-decoration: none;
+    padding: 1.0rem;
+}
+
+.nav-content a:hover{
+    text-decoration: underline;
+    color: rgb(29, 108, 156);
+}
+
+.btn-content{
+    border: 2px solid #071a25;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(36, 107, 151);
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+}
+
+.btn-content:hover{
+    background-color:  rgb(29, 108, 156);
+    color: #fff;
+}
+
+.btn-content:focus{
+   background-color:  rgb(29, 108, 156);
+   color: #fff;
+}
+
+.site-footer{
+    color: #fff;
+    background-color:  rgb(36, 111, 158);
+    
+    
+}
+
+.Primary-footer{
+    display: flex;
+    padding: 3.4rem;
+}
+
+.footer-contact,.footer-map,.footer-social{
+    flex-basis: 35%;
+    outline: 2px;
+    padding: 1.7rem;
+}
+
+.footer-contact a:hover{
+    color: rgb(131, 36, 36)
+}
+
+.footer-nav a{
+display: block;
+}
+
+.site-footer h2,a{
+    color: #fff;
+    text-decoration: none
+}
+
+.site-footer a:hover{
+   color:  rgb(131, 36, 36)
+}
+
+/* .footer-social{
+
+}  */
+
+.footer-social a img:hover{
+border-color: #071a25;
+}
+
+.footer-social img{
+    height: 32px;
+    width: 32px;
+    margin-right: 0.5rem;
+    border:1px solid #f9f9f9;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.secondary-footer{
+    background-color:rgb(31, 87, 122) ;
+    display: flex;
+    padding: 1.7rem 3.4rem;
+}
+
+.secondary-footer a{
+margin-left: auto;
+}
